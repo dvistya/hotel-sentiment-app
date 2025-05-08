@@ -4,9 +4,6 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import seaborn as sns
-import nltk
-from nltk.util import ngrams
-from nltk.corpus import stopwords
 from collections import Counter
 from gensim import corpora, models
 import re
@@ -14,6 +11,10 @@ import re
 nltk.download('punkt')
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
+
+import nltk
+from nltk.util import ngrams
+from nltk.corpus import stopwords
 
 # ------------------------ SETUP ------------------------
 st.set_page_config(page_title="Hotel Review Sentiment", layout="wide")
