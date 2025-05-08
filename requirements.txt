@@ -4,5 +4,5 @@ textblob
 matplotlib
 wordcloud
 seaborn
-nltk>=3.6.3
+nltk
 gensim
