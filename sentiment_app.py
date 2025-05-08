@@ -11,8 +11,8 @@ from collections import Counter
 from gensim import corpora, models
 import re
 
-# nltk.download('punkt')
-# nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # ------------------------ SETUP ------------------------
